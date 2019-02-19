@@ -54,7 +54,7 @@ For example, The JSON notation of this object will look like:
 }
 ```
 
-###Response format
+### Response format
 
 Endpoints should return a JSON response.
 
