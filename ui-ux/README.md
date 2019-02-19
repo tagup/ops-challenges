@@ -1,4 +1,4 @@
-# UI/UX Designer Challenge
+# Tagup UI/UX Designer Challenge
 
 ## Overview
 
