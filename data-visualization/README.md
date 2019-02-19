@@ -19,10 +19,10 @@ Data is provided in a CSV file. Columns include:
 - probability_of_faillure_at_timestamps_n
 
 For example, table representation will look like:
+
 |reference  |longitude      |latitude       |timestamp_1            |...    |timestamp_n            |
 |--         |--             |--             |--                     |--     |--                     |
 |asset_n    |-71.10285830   |42.38180399    |hazard at timestamp_1  |--     |hazard at timestamp_n  |
-
 
 ## Deliverable
 You are welcome to provide the final visualization in any reasonable format (PNG, PDF, etc.). Please also provide source files. 
