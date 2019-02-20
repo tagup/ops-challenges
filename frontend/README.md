@@ -32,5 +32,5 @@ Your objective is to create a mini timeline app. Detailed requirements are below
 ## What we will NOT take into consideration
 - The framework you choose to build this app. You can even use vanilla web components if you'd like, so long as your code is clean and easy to understand.
 
-If you have any questions at all, please don't hesitate to email [jobs@tagup.io](mailto:jobs@tagup.io) and we'll get back to you ASAP.
+If you have any questions at all, please don't hesitate to email [challenges@tagup.io](mailto:challenges@tagup.io) and we'll get back to you ASAP.
 
