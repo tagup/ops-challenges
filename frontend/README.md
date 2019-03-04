@@ -10,19 +10,19 @@ Your objective is to create a mini timeline app. Detailed requirements are below
 - Build reusable components for cards and buttons;
 - When clicking `Submit Log` button in the form, a new log will be added to the list of cards below;
 - Each timeline item contains a title, a message and a formatted date like in the picture;
-- Show a confirmation modal when pressing delete button with "Yes/Cancel" buttons, and delete the selected log when pressing "Yes".
+- Show a confirmation modal when pressing delete button with "Confirm/Cancel" buttons, and delete the selected log when pressing "Confirm".
 - Write test cases for your app. These can be unit test or E2E with Jest, Karma, Nightwatch etc.
-- Implement a search bar that permit to filter log by title.
+- Implement a search bar that filters logs by title.
 
 ## Hints
 - You can use any of these three frameworks to build your app: Vue, React or Angular;
 - You can use static data or generate it yourself. No need to request it from an API;
 - You may use a 3rd party library (for example, moment.js).
-- Please treat the design reference as a wireframe. Feel free to use you own design sense to improve the style.
+- Please treat the design reference as a wireframe. We encourage you to use your own design sense to improve the style.
 
 ## Bonus Points
-- Feel free to add more features: we're curious about what you can think of. We'd expect the same if you worked with us!
-- Neat documentation is always appreciated.
+- Feel free to add more features: we're curious what you can come up with!
+- Clean documentation is always appreciated.
 
 ## What we will take into consideration
 - The code contains the mentioned components: Cards, Button, and optionally a modal
@@ -35,7 +35,7 @@ Your objective is to create a mini timeline app. Detailed requirements are below
 
 ## Deliverable
 
-The source code should be hosted on github and the end result deployed on a public Cloud (Heroku, AWS etc. all have free tiers you can use).
+The source code should be hosted on github and the end result deployed on a public Cloud (Heroku, AWS etc.; all have free tiers you can use).
 
 
 If you have any questions at all, please don't hesitate to email [challenges@tagup.io](mailto:challenges@tagup.io) and we'll get back to you ASAP.
