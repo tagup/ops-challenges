@@ -58,19 +58,20 @@ certainty.
 A few notes to help:
 1. A good place to start is by addressing the noise due to comm errors. 
 2. There is a signal in the data that you can identify and exploit to predict
-   failure.
-3. If you can't find the signal in the noise, don't despair! We're much more
+   failure. Each machine failed immediately after the last recorded timestamp 
+   in the remote monitoring timeseries data.
+4. If you can't find the signal in the noise, don't despair! We're much more
    interested in what you try and how you try it than in how successful you are
    at helping a fictional company with their fictional problems.
-4. Feel free to use any libraries you like, or even other programming
+5. Feel free to use any libraries you like, or even other programming
    languages. Your final results should be presented in this notebook, however.
-5. There are no constraints on the models or algorithms you can bring to bear.
+6. There are no constraints on the models or algorithms you can bring to bear.
    Some ideas include: unsupervised clustering algorithms such as k-means;
    hidden Markov models; forecasting models like ARMA; neural networks;
    survival models built using features extracted from the data; etc.
-6. Don't feel compelled to use all the data if you're not sure how. Feel free
+7. Don't feel compelled to use all the data if you're not sure how. Feel free
    to focus on data from a single unit if that makes it easier to get started.
-7. Be sure to clearly articulate what you did, why you did it, and how the
+8. Be sure to clearly articulate what you did, why you did it, and how the
    results should be interpreted. In particular you should be aware of the
    limitations of whatever approach or approaches you take.
-8. Don't hesitate to reach out with any questions.
+9. Don't hesitate to reach out with any questions.
