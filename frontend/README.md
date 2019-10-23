@@ -14,14 +14,13 @@ Your objective is to create a mini timeline app. Detailed requirements are below
 - Implement a search bar that filters logs by title.
 
 ## Hints
-- You can use any of these three frameworks to build your app: Vue, React or Angular;
 - You can use static data or generate it yourself. No need to request it from an API;
 - You may use a 3rd party library (for example, moment.js).
 - Please treat the design reference as a wireframe. We encourage you to use your own design sense to improve the style.
 
 ## Bonus Points
 - Feel free to add more features: we're curious what you can come up with!
-- Clean documentation is always appreciated.
+- Tests and clean documentation is always appreciated.
 
 ## What we will take into consideration
 - The code contains the mentioned components: Cards, Button, and optionally a modal
