@@ -5,13 +5,10 @@
 You will need the following programs available:
 - git
 - python3
+- pipenv
 
 Once all are properly installed and configured, you are ready to begin.  First,
-fork this repository. Then run `make jupyter`; this will download the dataset,
-install dependencies, and start a jupyter server in the current directory. It
-should also open a browser tab to the jupyter interface. Open the data science
-challenge notebook, and follow the instructions it contains. Those instructions
-are repeated here for convenience.
+fork this repository. Then run `make jupyter`; this will start a jupyter server in the current directory. Itshould also open a browser tab to the jupyter interface. Open the data science exercise notebook, and follow the instructions it contains. Those instructions are repeated there for convenience.
 
 ## The Exercise
 
