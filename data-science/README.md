@@ -33,4 +33,4 @@ A few notes to help:
    limitations of whatever approach or approaches you take.
 5. Don't feel compelled to use all the data if you're not sure how. Feel free
    to focus on data from a single unit if that makes it easier to get started.
-6. Don't hesitate to reach out with any questions!
+6. Don't hesitate to reach out to datasciencejobs@tagup.io with any questions!
