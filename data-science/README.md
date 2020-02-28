@@ -1,6 +1,6 @@
-# Tagup data science exercise
+# Tagup Data Science Exercise
 
-## Getting started
+## Getting Started
 
 You will need the following programs available:
 - git
@@ -13,7 +13,7 @@ should also open a browser tab to the jupyter interface. Open the data science
 challenge notebook, and follow the instructions it contains. Those instructions
 are repeated here for convenience.
 
-## The data science challenge
+## The Exercise
 
 ExampleCo, Inc is gathering several types of data for one of its very expensive machines.  The very expensive machine has three operating modes: normal, fault and failure.  The machine runs all the time, and usually it is in normal mode.  However, in the event that the machine enters fault mode, the company would like to know as soon as possible.  This way they can take preventative action to avoid the failure and hopefully save themselves lots of money.
 
