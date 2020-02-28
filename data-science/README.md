@@ -5,7 +5,6 @@
 You will need the following programs available:
 - git
 - python3
-- Google Drive
 
 Once all are properly installed and configured, you are ready to begin.  First,
 fork this repository. Then run `make jupyter`; this will download the dataset,
@@ -22,7 +21,7 @@ They collect four kinds of data on their very expensive machine.  When the machi
 
 The difficulty here is that while the modes do appear visibly different, the change in the operating modes is difficult to detect in any kind of automated way.  As the data scientist, it is your job to analyze some historical data from one fialure to determine exactly when the machine entered fault mode and when it entered faiure mode.
 
-Your main objective is to develope an automated method to pinpoint the time of fault and failure in this machine.  Keep in mind that you will be sharing these results with the executives at ExampleCo, so best as possible to explain what you are doing, what you've shown, and why you think your predictions are good.
+__Your main objective: to develop an automated method to pinpoint the times of fault and failure in this machine__.  Keep in mind that you will be sharing these results with the executives at ExampleCo, so to the best of your ability, try to explain what you are doing, what you've shown, and why you think your predictions are good.
 
 
 A few notes to help:
