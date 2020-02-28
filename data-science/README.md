@@ -8,13 +8,15 @@ You will need the following programs available:
 - pipenv
 
 Once all are properly installed and configured, you are ready to begin.  First,
-fork this repository. Then run `make jupyter`; this will start a jupyter server in the current directory. Itshould also open a browser tab to the jupyter interface. Open the data science exercise notebook, and follow the instructions it contains. Those instructions are repeated there for convenience.
+fork this repository. Then run `make jupyter`; this will start a jupyter server in the current directory. It should also open a browser tab to the jupyter interface. Open the data science exercise notebook, and follow the instructions it contains. Those instructions are repeated there for convenience.
 
 ## The Exercise
 
 ExampleCo, Inc is gathering several types of data for one of its very expensive machines.  The very expensive machine has three operating modes: *normal*, *faulty* and *failed*.  The machine runs all the time, and usually it is in normal mode.  However, in the event that the machine enters faulty mode, the company would like to know as soon as possible.  This way they can take preventative action to avoid entering failed mode and hopefully save themselves lots of money.
 
-They collect four kinds of timeseries data on their very expensive machine.  When the machine is operating in normal mode the data behaves in a fairly predictable way, but with a moderate amount of noise.  Before the very expensive machine fails it will enter a fault mode, during which the data appears visibilty quite different.  Finally, when a machine fails it enters a third distinctly different mode.
+They collect four kinds of timeseries data for their very expensive machine.  When the machine is operating in normal mode the data behaves in a fairly predictable way, but with a moderate amount of noise.  Before the very expensive machine fails it will enter a fault mode, during which the data appears visibilty quite different.  Finally, when a machine fails it enters a third distinctly different mode.
+
+You can download the data here: [exampleco_data.csv](https://drive.google.com/file/d/1TiTIlGKSZ7LBlByYj9bXZ7LBZloV-P0H/view?usp=sharing)
 
 __Your main objective: to develop an automated method to pinpoint the times of fault and failure in this machine__.  Keep in mind that you will be sharing these results with the executives at ExampleCo, so to the best of your ability, try to explain what you are doing, what you've shown, and why you think your predictions are good.
 
