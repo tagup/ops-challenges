@@ -13,7 +13,7 @@ BUCKET = tagup-challenge
 # COMMANDS                                                                      #
 #################################################################################
 
-EXECUTABLES = pipenv aws
+EXECUTABLES = pipenv
 ## Set up python interpreter environment
 environment: .venv
 	$(foreach x,$(EXECUTABLES),\
