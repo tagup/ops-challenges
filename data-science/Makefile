@@ -22,12 +22,7 @@ environment: .venv
 
 ## Run jupyter notebook server
 jupyter: fetch environment
-	pipenv run jupyter notebook 
-
-## Download data from S3
-fetch:
-	aws s3 sync s3://$(BUCKET)/train data/train
-	aws s3 sync s3://$(BUCKET)/test data/test
+	pipenv run jupyter notebook
 
 .venv: Pipfile
 	pipenv install --dev
