@@ -3,12 +3,16 @@
 ## Getting Started
 
 You will need the following programs available:
+
 - git
 - python3
-- pipenv
+- conda ([download/install conda](https://www.anaconda.com/distribution/))
 
-Once all are properly installed and configured, you are ready to begin.  First,
-fork this repository. Then run `make jupyter`; this will start a jupyter server in the current directory. It should also open a browser tab to the jupyter interface. Open the data science exercise notebook, and follow the instructions it contains. Those instructions are repeated there for convenience.
+Once these are properly installed and configured, you are ready to begin.  First, you will need to fork this repository, then,
+1. run `conda create -n dschallenge python=3.6.9 numpy pandas scipy scikit-learn matplotlib pytest ipython jupyter`
+2. run `conda activate dschallenge`
+3. execute `make jupyter`
+This will open a browser tab to the jupyter interface. Open the data science exercise notebook, and follow the instructions it contains. Those instructions are repeated below for convenience.
 
 ## The Exercise
 
