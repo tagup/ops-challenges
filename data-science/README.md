@@ -16,7 +16,7 @@ ExampleCo, Inc is gathering several types of data for its fleet of very expensiv
 
 They collect four kinds of timeseries data for each machine their fleet of very expensive machines.  When a machine is operating in normal mode the data behaves in a fairly predictable way, but with a moderate amount of noise.  Before a machine fails it will enter a fault mode, during which the data appears visibly quite different.  Finally, when a machine fails it enters a third distinctly different mode.
 
-You can download the data here: [exampleco_data.csv](https://drive.google.com/open?id=1b12u6rzkG1AxB6wLGl7IBVoaoSoZLHNR)
+You can download the data here: [exampleco_data](https://drive.google.com/open?id=1b12u6rzkG1AxB6wLGl7IBVoaoSoZLHNR)
 
 __Your main objective: to develop an automated method to pinpoint the times of fault and failure in this machine__.  Keep in mind that you will be sharing these results with the executives at ExampleCo, so to the best of your ability, try to explain what you are doing, what you've shown, and why you think your predictions are good.
 
