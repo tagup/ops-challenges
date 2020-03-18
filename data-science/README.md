@@ -28,8 +28,8 @@ __Your main objective: to develop an automated method to pinpoint the times of f
 A few notes to help:
 1. A good place to start is by addressing the noise due to communication
    errors.
-2. Feel free to use any libraries you like, or even other programming
-   languages. Your final results should be presented in this notebook, however.
+2. Feel free to use any libraries you like. Your final results should be 
+   presented in this Python notebook.
 3. There are no constraints on the techniques you bring to bear, we are curious
    to see how you think and what sort of resources you have in your toolbox.
 4. Be sure to clearly articulate what you did, why you did it, and how the
