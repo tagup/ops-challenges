@@ -22,19 +22,21 @@ They collect four kinds of timeseries data for each machine in their fleet of ve
 
 You can download the data here: [exampleco_data](https://drive.google.com/open?id=1b12u6rzkG1AxB6wLGl7IBVoaoSoZLHNR)
 
-__Your main objective: to develop an automated method to pinpoint the times of fault and failure in this machine__.  Keep in mind that you will be sharing these results with the executives at ExampleCo, so to the best of your ability, try to explain what you are doing, what you've shown, and why you think your predictions are good.
-
+Your objectives:
+- There are some clear outliers in the data due to communication errors from the sensor equipment. These bad measurements have no bearing on the problem you’re trying to solve, and a good place to start is to find a way to filter them out.
+- Develop an approach to detect the beginning of the “faulty” period, ideally giving the ExampleCo engineers as much time as possible to shut down their machines before failure occurs (at which time all measurements drop close to 0). The best solutions are automated in the sense that they would generalize to similar but slightly different data; simpler methods are acceptable but are less likely to receive full credit.
+- Demonstrate the efficacy of your approach using visualizations. You must also include a simple explanation of these figures and why your approach is effective, written in language that non-technical executives could understand.
+- Finally, discuss the strengths and limitations of your approach (written for a technical audience), and be sure to mention other approaches that you would have liked to try if you had more time.
 
 A few notes to help:
-1. A good place to start is by addressing the noise due to communication
-   errors.
-2. Feel free to use any libraries you like. Your final results should be 
+1. Feel free to use any libraries you like. Your final results should be 
    presented in this Python notebook.
-3. There are no constraints on the techniques you bring to bear, we are curious
+2. There are no constraints on the techniques you bring to bear, we are curious
    to see how you think and what sort of resources you have in your toolbox.
-4. Be sure to clearly articulate what you did, why you did it, and how the
-   results should be interpreted. In particular you should be aware of the
-   limitations of whatever approach or approaches you take.
-5. Don't feel compelled to use all the data if you're not sure how. Feel free
-   to focus on data from a single unit if that makes it easier to get started.
-6. Don't hesitate to reach out to datasciencejobs@tagup.io with any questions!
+3. Don't feel compelled to use all the data if you're not sure how. Feel free to 
+   focus on data from a single unit, and use that as a jumping-off point to draw 
+   inferences about the rest of the fleet.
+4. Before submitting the challenge, make sure to run all cells so that the content 
+   in the notebook can be evaluated without running any code. Failure to do so will 
+   result in an automatic rejection.
+5. Don't hesitate to reach out to datasciencejobs@tagup.io with any questions!
