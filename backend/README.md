@@ -67,7 +67,8 @@ Exposed data to API consumer must only contain:
 
 ## Deliverable
 
-The source code should be hosted on github and the end result deployed on a public Cloud (Heroku, AWS etc. all have free tiers you can use).
+The source code should be hosted on github.
+Having result deployed on a public Cloud (Heroku, AWS etc. all have free tiers you can use) is a plus but not required.
 
 
 ## Tips
