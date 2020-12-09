@@ -1,6 +1,6 @@
 # Tagup Back-End Technical Challenge
 
-Thanks for your interest in joining our team! This challenge is a simple test to evaluate your technical abilities in advance of interviews with the team.
+Thanks for your interest in joining our team! This challenge is a simple test to evaluate your technical abilities in advance of final stage interviews.
 
 ## Project Description
 
