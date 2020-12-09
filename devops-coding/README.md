@@ -20,6 +20,8 @@ Your project should be hosted on github and be a standalone project (i.e. **do n
 
 ## Tips
 
+We value syntax, structure and variable naming, code documentation and testability.
+
 Try to design and implement your solution as you would do for real production code. Show us how you create clean and maintainable code that produces awesome result. Build something that we'd be happy to contribute to.
 
 Feel free to add more features: we're curious about what you can think of. We'd expect the same if you worked with us!
