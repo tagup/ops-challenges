@@ -74,7 +74,7 @@ Deploying your work to a public cloud (Heroku, AWS etc. all have free tiers you 
 
 ## Tips
 
-We value syntax, structure and variable naming, code documentation and testability.
+We value syntax, structure and variable naming, code documentation, and testability.
 
 Try to design and implement your solution as you would do for real production code. Show us how you create clean and maintainable code that produces the target result. Build something that we'd be happy to contribute to.
 
