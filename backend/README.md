@@ -1,12 +1,12 @@
-# Tagup back-end Technical Challenge
+# Tagup Back-End Technical Challenge
 
-Thanks for your interest in joining our team! This challenge is a simple test for us to evaluate your technical abilities in advance of meeting in person.
+Thanks for your interest in joining our team! This challenge is a simple test to evaluate your technical abilities in advance of interviews with the team.
 
 ## Project Description
 
-The goal of this assignment is to create a RESTful API connected to a local database that can save, modify, delete,and output data records. The project shouldn’t take more than an hour or two to complete.
+The goal of this assignment is to create a RESTful API connected to a local database that can save, modify, delete, and output data records. The project shouldn’t take more than an hour or two to complete.
 
-You can use whichever language/framework and database you’re most comfortable with—the goal here is not to validate your knowledge of a particular technology, rather to understand “how” you code.
+You can use whichever language/framework and database you’re most comfortable with. The goal is not to validate your knowledge of a particular technology, rather to understand “how” you code.
 
 ## Technical Requirements
 
@@ -67,13 +67,16 @@ Exposed data to API consumer must only contain:
 
 ## Deliverable
 
-The source code should be hosted on github.
-Having result deployed on a public Cloud (Heroku, AWS etc. all have free tiers you can use) is a plus but not required.
+The source code should be hosted on GitHub.
+
+Deploying your work to a public cloud (Heroku, AWS etc. all have free tiers you can use) is a plus, but not required.
 
 
 ## Tips
 
-Try to design and implement your solution as you would do for real production code. Show us how you create clean, maintainable code that does awesome stuff. Build something that we'd be happy to contribute to. This is not a programming contest where dirty hacks win the game.
+We value syntax, structure and variable naming, code documentation and testability.
+
+Try to design and implement your solution as you would do for real production code. Show us how you create clean and maintainable code that produces the target result. Build something that we'd be happy to contribute to.
 
 Feel free to add more features: we're curious about what you can think of. We'd expect the same if you worked with us!
 
