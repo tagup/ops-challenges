@@ -1,4 +1,4 @@
-# Tagup DevOps Coding challenge
+# Tagup DevOps & Data Pipeline Technical Challenge
 
 Thanks for your interest in joining our team! This challenge is a simple test for us to evaluate your technical abilities.
 
