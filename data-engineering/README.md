@@ -13,9 +13,9 @@ Your objectives:
     
 -   This should be scripted, i.e. you should write a script to map the CSV data (that would work on similar equipment data exports) into your database.
     
--   Bonus points:
-    
 
+Bonus points:
+    
 -   Apply filters to clean the data. For example, there are some clear outliers in the data due to communication errors from the sensor equipment. These bad measurements have no bearing on the problem you’re trying to solve, and a good place to start is to find a way to filter them out.
     
 -   Provide summary statistics for the ingressed data, including various statistical moments, and any other relevant descriptive statistics.
