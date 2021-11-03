@@ -1,7 +1,7 @@
 
 ## The Exercise
 
-ExampleCo, Inc is gathering several types of data for its fleet of very expensive machines. They collect four kinds of time series data for each machine in their fleet of very expensive machines. When a machine is operating in normal mode the data behaves in a fairly predictable way, but with a moderate amount of noise. Before a machine fails it will ramp into faulty mode, during which the data appears visibly quite different. Finally, when a machine fails it enters a third, and distinctly different, failed mode where all signals are very close to zero. There are three common sensors associated with each machine. There is also static data associated with each machine.
+ExampleCo, Inc is gathering several types of data for its fleet of very expensive machines. They collect four kinds of time series data for each machine in their fleet. When a machine is operating in normal mode the data behaves in a fairly predictable way, but with a moderate amount of noise. Before a machine fails it will ramp into faulty mode, during which the data appears visibly quite different. Finally, when a machine fails it enters a third, and distinctly different, failed mode where all signals are very close to zero. There are four common sensors associated with each machine. There is also static data associated with each machine.
 
 ExampleCo stores their data in SQL tables. While SQL is useful for storing and querying data, it is less useful as input for machine learning pipelines. At Tagup, our ML Pipelines expect data as an n-dimensional array, and a common first step is converting a customer's data from SQL to array form.
 
