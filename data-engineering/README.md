@@ -15,7 +15,7 @@ Your objectives are:
 Bonus points:
 - Provide summary statistics for the ingressed data, including various statistical moments, and any other relevant descriptive statistics.
 - Integrate the static data into your design.  
-- As part of a data processing pipeline, upload your arrays to AWS S3
+- As part of a data processing pipeline, upload your arrays to AWS S3.
 - Demonstrate the efficacy of your approach using visualizations. You must also include a simple explanation of these figures and why your approach is effective, written in language that non-technical executives could understand.
     
 A few notes to help:
