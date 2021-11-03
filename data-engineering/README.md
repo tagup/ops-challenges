@@ -23,7 +23,7 @@ A few notes to help:
     
 2. There are no constraints on the techniques you bring to bear, we are curious to see how you think and what sort of resources you have in your toolbox.
     
-3. Don't hesitate to reach out to jon@tagup.io with any questions!
+3. Don't hesitate to reach out to challenges@tagup.io with any questions!
     
 
 ## Tips
