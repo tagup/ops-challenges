@@ -1,10 +1,11 @@
-# Tagup Back-End Coding Exercise
+# Tagup Back-End Advanced Coding Exercise
 
-Thanks for your interest in joining our team! In this exercise, you will create a minimalistic web application meant to receive sensor data and report statistics. It is intended to evaluate your technical abilities in advance of final stage interviews, and shouldn’t take more than an hour or two to complete.
+Thanks for your interest in joining our team! In this exercise, you will create a minimalistic web application meant to receive sensor data and report statistics. It is intended to evaluate your technical abilities in advance of an extended interview, and shouldn’t take more than a few hours to complete.
 
 ## Technical Requirements
 
-Your server should have four routes:
+Please implement a horizonatally-scalable service to collect sensor data and
+report statistics. Each server instance should have four routes:
 - `POST /data` should accept JSON documents in the request body, with the form
     `[{"sensor": <str: sensor_id>, "timestamp": <str: iso 8601 timestamp>, "value": <float>}]`
   - The sensor id is a string describing the sensor that generated the data. A single request can include data from multiple sensors.
@@ -21,24 +22,22 @@ Your server should have four routes:
     ready to receive requests, and should not return a 200 response if the
     server is not ready.
 
-The server should be implemented in Python, using whatever web framework you are most comfortable in (e.g. Flask or FastAPI). The server should be containerized using Docker.  For the purposes of this exercise, data does not need to persist across server restarts.
+The server should be implemented in Python, in whatever web framework you are most comfortable in (e.g. Flask or FastAPI). It should be containerized using Docker, and should be deployable using Kubernetes.  For the purposes of this exercise, data does not need to persist across server restarts, but server responses should be correct even if there are multiple instances behind a load balancer (so an example architecture might include a central database or cache to act as a system of record).
+
 
 ## Deliverable
 
-Your code should be containerized using docker. Please include a docker file that installs your dependencies and executes your server, listening for requests on port 8080. That is, we should be able to execute your code by running 
+Your code should be containerized using docker. Please include a docker file that installs your dependencies and executes your server, listening for requests on port 8080. That is, we should be able to run your server by running 
 ```
 docker build -t exercise:latest .
 docker run --rm -it -p 8080:8080 exercise:latest
 ```
-Your submission should take the form of source code in a github reposiutory. If
-you do not have a github account, please create one. The github repository can
-be public or private; if private, please invite the following github users to
-collaborate:
+In addition, you should include a kubernetes manifest in YAML that creates a replica set with two instances of your service. We will build your docker image, push it to a private ECR repository, and deploy it using `kubectl apply -f <manifest.yaml>`; we will access your service using port forwarding. You do not need to configure an ingreess for TLS or external DNS accessibility.
+
+Your submission should take the form of source code in a github reposiutory. If you do not have a github account, please create one. The github repository can be public or private; if private, please invite the following github users to collaborate:
 - [wrvb](https://github.com/wrvb)
 
-If your submission includes any functionality not captured in the docker image
-(such as tests or documentation) please describe the functionality in a
-README.md file.
+If your submission includes any functionality not captured in the docker image (such as tests or documentation) please describe the functionality in a README.md file.
 
 ## Tips
 
