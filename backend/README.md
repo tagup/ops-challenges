@@ -6,7 +6,7 @@ Thanks for your interest in joining our team! In this exercise, you will create 
 
 Please implement a basic web application that collects sensor data and reports statistics. Your server should have four routes:
 - `POST /data` should accept JSON documents in the request body, with the form
-    `[{"sensor": <str: sensor_id>, "timestamp": <str: iso 8601 timestamp>, "value": <float>}]`
+    `[{"sensor": <str: sensor_id>, "timestamp": <str: iso 8601 timestamp>, "value": <float>}, ...]`
   - The sensor id is a string describing the sensor that generated the data. A single request can include data from multiple sensors.
   - The timestamp is an ISO 8601 string indicating when the data was collected. Timestamps may be represented in local time where the data is captured.
   - Value is the sensor value, represented in floating point.
@@ -17,7 +17,7 @@ Please implement a basic web application that collects sensor data and reports s
     - the `count` value should be the total number of measurements received by the server.
     - the `avg` value should be the arithmetic average of all values received for the sensor by the server.
 - `DELETE /statistics/<sensor id>` should clear any statistics for the sensor with the given ID, and the response should not include a body.
-- `GET /healthz` should return a 204 response with no body if the server is ready to receive requests, and should not return a 200 response if the server is not ready.
+- `GET /healthz` should return a 204 response with no body if the server is ready to receive requests, and an error response (e.g. 400) otherwise.
 
 Sample data that could be sent to `POST /data` or received from `GET /statistics/sensor1` is provided in the `samples` directory.
 
@@ -39,8 +39,8 @@ If your submission includes any functionality not captured in the docker image (
 
 ## Tips
 
-While this is only an exercise, try to design and implement your solution as you would do for real production code. Show us how you create clean and maintainable code that produces the target result. Build something that we'd be happy to contribute to.
+Show us how you create clean and maintainable code that produces the target result. In particular, we value clearly structured and well-documented code, designed for testability, maintainability, and performance. Adhere to PEP8 if possible, and use consistent naming schemes. Build something that we'd be happy to contribute to.
 
-In particular, we value clearly structured and well-documented code, designed for testability, maintainability, and performance. Adhere to PEP8 if possible, and use consistent naming schemes.
+While this is only an exercise, try to design and implement your solution as you would do for real production code. Although they are beyond the scope of the exercise, consider how you might incorporate logging, monitoring, access control, persistence, and scalability. 
 
-Feel free to add more features: we're curious about what you can think of. Consider how you might incorporate logging, monitoring, access control, persistence, and scalability. We'd expect the same if you worked with us! 
+Feel free to add more features: we're curious about what you can think of. If, in a real production situation, you would advocate for any changes to this specification, feel free to note your deviations and your motivations. We'd expect the same if you worked with us! 
