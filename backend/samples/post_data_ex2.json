@@ -1,0 +1,13 @@
+[{
+  "sensor": "sensor1",
+  "timestamp": "2021-11-08T21:38:09+00:00",
+  "value": 2.1
+}, {
+  "sensor": "sensor1",
+  "timestamp": "2021-11-09T21:38:10+00:00",
+  "value": 1.0
+}, {
+  "sensor": "sensor1",
+  "timestamp": "2021-11-09T21:38:11+00:00",
+  "value": 2.2
+}]
