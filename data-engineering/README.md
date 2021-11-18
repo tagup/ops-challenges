@@ -11,12 +11,12 @@ Your objectives are:
 
 - Map the equipment data from SQL into arrays (or a single array). To keep things simple, you can ignore the static data to start. Be sure to describe your design choices and the array schema you chose.
 - Apply filters to clean the data. For example, there are some clear outliers in the data due to communication errors from the sensor equipment. These bad measurements have no bearing on the ability for Tagup to provide insight from the data, and a good place to start is to find a way to filter them out.
+- Demonstrate the efficacy of your approach using visualizations. You must also include a simple explanation of these figures and why your approach is effective, written in language that non-technical executives could understand.
 
 Bonus points:
 - Provide summary statistics for the ingressed data, including various statistical moments, and any other relevant descriptive statistics.
 - Integrate the static data into your design.  
 - As part of a data processing pipeline, upload your arrays to AWS S3.
-- Demonstrate the efficacy of your approach using visualizations. You must also include a simple explanation of these figures and why your approach is effective, written in language that non-technical executives could understand.
     
 A few notes to help:
 1. Feel free to use any libraries you like. At Tagup, we use [xarray](http://xarray.pydata.org/en/stable/) for multidimensional arrays, but you can use whatever methods you prefer. Your final results should be shared via GitHub, including a README file providing documentation (ideally of both your code and your findings in the data). There is a jupyter notebook included to help you get started, but do not feel obligated to submit your solution in notebook form.
