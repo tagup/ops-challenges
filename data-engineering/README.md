@@ -10,7 +10,6 @@ You can download the data here: [exampleco_data](https://drive.google.com/file/d
 Your main objectives are:
 
 - Write a pipeline that reads the equipment data from the SQL database and transforms it into a single multi-dimensional array.
-  - To keep things simple, you can ignore the static data to start.
   - Be sure to describe your design choices and explain the choices you made about the structure of the array(s).
 - Apply filters to clean the data.
   - There are some clear outliers in the data due to communication errors from the sensor equipment. A good place to start is to find a way to filter them out.
@@ -25,9 +24,11 @@ You can earn "bonus points" if you:
 A few notes to help:
 1. Feel free to use any libraries you like. At Tagup, we use [xarray](http://xarray.pydata.org/en/stable/) for multidimensional arrays, but you can use whatever methods you prefer. Your final results should be shared via GitHub, including a README file providing documentation (ideally of both your code and your findings in the data). There is a jupyter notebook included to help you get started, but do not feel obligated to submit your solution in notebook form.
 
-2. There are no constraints on the techniques you bring to bear, we are curious to see how you think and what sort of resources you have in your toolbox.
+2. A good way to start is to ignore the static data, and focus only on the time series data.
 
-3. Don't hesitate to reach out to challenges@tagup.io with any questions!
+3. There are no constraints on the techniques you bring to bear, we are curious to see how you think and what sort of resources you have in your toolbox.
+
+4. Don't hesitate to reach out to challenges@tagup.io with any questions!
 
 
 ## Tips
