@@ -13,9 +13,9 @@ Please implement a basic horizontally-scalable service that collects sensor data
 - `GET /statistics/<sensor id>` should return a JSON document in the response body of the form 
   `{"last_measurement": <str: iso 8601 timestamp>, "count": <int>,
   "avg": <float>}`. 
-    - the `last_measurement` value should be the time of the last measurement posted to `/data` (the time included in the request body, *not* the time the request was made)
-    - the `count` value should be the total number of measurements received by the server.
-    - the `avg` value should be the arithmetic average of all values received for the sensor by the server.
+    - the `last_measurement` value should be the time of the last measurement posted for that sensor id to `/data` (the time included in the request body, *not* the time the request was made)
+    - the `count` value should be the total number of measurements received for that sensor id.
+    - the `avg` value should be the arithmetic average of all values received for the sensor id.
 - `DELETE /statistics/<sensor id>` should clear any statistics for the sensor with the given ID, and the response should not include a body.
 - `GET /healthz` should return a 204 response with no body if the server is ready to receive requests, and an error response (e.g. 400) otherwise.
 
